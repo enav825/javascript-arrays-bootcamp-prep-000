@@ -60,6 +60,20 @@ function removeElementFromBeginningOfArray(arr) {
 
 
 
+function destructivelyRemoveElementFromEndOfArray(desArr) {
+  
+  desArr.pop();
+  
+  return desArr;
+}
+
+
+
+function removeElementFromEndOfArray(removeEndArr) {
+  
+  return removeEndArr.slice(0, removeEndArr.length-1);
+  
+}
 
 
 
